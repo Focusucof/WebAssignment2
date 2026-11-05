@@ -1,8 +1,17 @@
 body {
-  padding: 50px;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.hero {
+  min-height: 100vh;
+  background: url('/images/hero-bg.svg') center / cover no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 8rem;
 }
