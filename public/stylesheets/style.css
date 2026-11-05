@@ -13,5 +13,10 @@ a {
   color: #fff;
   display: flex;
   align-items: flex-end;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 5rem;
 }
