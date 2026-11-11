@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <path class="favicon-path" d="M12 2L20.5 7V17L12 22L3.5 17V7L12 2Z" stroke="#111" stroke-width="1.5" fill="none"/>
+  <path class="favicon-path" d="M12 6L17 9V15L12 18L7 15V9L12 6Z" stroke="#111" stroke-width="1" fill="none"/>
+  <path class="favicon-path" d="M12 8L15 9.75V14.25L12 16L9 14.25V9.75L12 8Z" stroke="#111" stroke-width="0.5" fill="none"/>
+  <style>
+    .favicon-path { stroke: #111; }
+    @media (prefers-color-scheme: dark) {
+      .favicon-path { stroke: #f5f5f0; }
+    }
+  </style>
+</svg>

@@ -39,3 +39,45 @@
   color: #ede6d6;
   position: relative;
 }
+
+/* projects page */
+.projects-page {
+  background: #121313;
+  color: #ede6d6;
+}
+
+.projects {
+  /* leave room for the navbar */
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  min-height: 100vh;
+}
+
+.project-card {
+  /* set bootstrap variable */
+  --bs-border-color: #3d3a34;
+  background: rgba(10, 10, 10, 0.6); /* 60% opacity */
+  color: #ede6d6;
+  transition: all 0.2s;
+}
+
+.project-card:hover {
+  --bs-border-color: #6b6558;
+  background: rgba(237, 230, 214, 0.04);
+  color: #ede6d6;
+}
+
+.project-card img {
+  width: 64px;
+  height: 64px;
+}
+
+.project-card h2,
+.project-card span {
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: 0.1em;
+}
+
+.project-card span {
+  font-size: 0.8rem;
+}
