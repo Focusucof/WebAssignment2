@@ -40,20 +40,20 @@
   position: relative;
 }
 
-/* projects page */
-.projects-page {
+/* page setup */
+.page {
   background: #121313;
   color: #ede6d6;
 }
 
-.projects {
+.page-container {
   /* leave room for the navbar */
   padding-top: 8rem;
   padding-bottom: 4rem;
   min-height: 100vh;
 }
 
-.project-card {
+.box {
   /* set bootstrap variable */
   --bs-border-color: #3d3a34;
   background: rgba(10, 10, 10, 0.6); /* 60% opacity */
@@ -61,23 +61,32 @@
   transition: all 0.2s;
 }
 
-.project-card:hover {
+/* only boxes that are links */
+a.box:hover {
   --bs-border-color: #6b6558;
-  background: rgba(237, 230, 214, 0.04);
+  background: rgba(237, 230, 214, 0.08);
   color: #ede6d6;
 }
 
-.project-card img {
+/* small logo inside a box */
+.box-icon {
   width: 64px;
   height: 64px;
 }
 
-.project-card h2,
-.project-card span {
+/* monospace text (headings, labels) */
+.mono {
   font-family: "JetBrains Mono", monospace;
   letter-spacing: 0.1em;
 }
 
-.project-card span {
+.mono-sm {
   font-size: 0.8rem;
+}
+
+/* about page */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
