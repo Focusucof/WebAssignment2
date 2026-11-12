@@ -1,4 +1,9 @@
 <footer class="py-4 text-center text">
-    <p class="mb-3">&copy; <%= new Date().getFullYear() %> Devin Boodoo. All rights reserved.</p>
-    <%- include('social-buttons') %>
+    <p class="mb-0">&copy; <%= new Date().getFullYear() %> Devin Boodoo. <a href="mailto:devin.boodoo@ontariotechu.net" class="text-decoration-none text-accent2">devin.boodoo@ontariotechu.net</a> All rights reserved.</p>
+    <!-- option to hide social buttons used on the home page -->
+    <% if (locals.socials !== false) { %>
+        <div class="mt-3">
+            <%- include('social-buttons') %>
+        </div>
+    <% } %>
 </footer>

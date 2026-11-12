@@ -2,14 +2,15 @@
   min-height: 100vh;
   background: url('/images/hero-bg.svg') center / cover no-repeat;
   color: #fff;
+  /* stack the text and the footer at the bottom of the image */
   display: flex;
-  align-items: flex-end;
-  padding-bottom: 2rem;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .hero-content {
   max-width: 800px;
-  padding: 0 5rem 4rem;
+  padding: 0 5rem 2rem;
 }
 
 /* navbar */
@@ -113,4 +114,12 @@ button.box:hover {
 
 .box textarea.form-control {
   min-height: 200px;
+}
+
+.text-accent {
+  color: #9E441D;
+}
+
+.text-accent2 {
+  color: #518392
 }
