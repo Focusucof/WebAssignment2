@@ -50,7 +50,11 @@
   /* leave room for the navbar */
   padding-top: 8rem;
   padding-bottom: 4rem;
-  min-height: 100vh;
+  min-height: 85vh; /* leave room for the footer */
+}
+
+.text {
+  color: #ede6d6;
 }
 
 .box {
