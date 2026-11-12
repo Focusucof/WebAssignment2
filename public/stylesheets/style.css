@@ -20,6 +20,7 @@
   font-family: "JetBrains Mono", monospace;
 }
 
+/* START AI PART */
 .site-nav a {
   /* set bootstrap variable */
   --bs-border-color: #3d3a34;
@@ -33,6 +34,8 @@
 .site-nav a + a {
   margin-left: -1px;
 }
+
+/* END AI PART */
 
 .site-nav a:hover {
   --bs-border-color: #6b6558;
