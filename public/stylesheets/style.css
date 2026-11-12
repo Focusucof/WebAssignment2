@@ -65,8 +65,9 @@
   transition: all 0.2s;
 }
 
-/* only boxes that are links */
-a.box:hover {
+/* only boxes that are links or buttons */
+a.box:hover,
+button.box:hover {
   --bs-border-color: #6b6558;
   background: rgba(237, 230, 214, 0.08);
   color: #ede6d6;
@@ -93,4 +94,23 @@ a.box:hover {
   width: 150px;
   height: 150px;
   object-fit: cover;
+}
+
+/* get rid of bootstraps ugly form styling */
+.box .form-control {
+  background: #121313;
+  border-color: #3d3a34;
+  border-radius: 0;
+  color: #ede6d6;
+}
+
+.box .form-control:focus {
+  border-color: #6b6558;
+  background: #121313;
+  color: #ede6d6;
+  box-shadow: none; /* remove blue box outline */
+}
+
+.box textarea.form-control {
+  min-height: 200px;
 }
